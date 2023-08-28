@@ -3,10 +3,10 @@
 ## Generer ASCII-kunst fra en bildefil
 
 Velg et programmeringsspråk, gjerne et du ikke kan særlig godt, men ønsker å lære.
-Helst ikke for obskurt, men noe som Go, Rust, Kotlin, ellerHaskell kan egne seg.
+Helst ikke for obskurt, men noe som Go, Rust, Kotlin, eller Haskell kan egne seg.
 
 Oppgaven går ut på å, ved hjelp av LLM (ChatGPT, og kanskje Copilot, om du har tilgang til det),
-å skrive et program fra scratch, som tar inn en bildefil, og generer ASCII-kunst basert på dette.
+å skrive et program fra scratch, som tar inn en bildefil, og genererer ASCII-kunst basert på dette.
 
 Poenget her er å få med seg oppsett av et nytt språk (installasjon og miljø),
 installering og bruk av biblioteker (antakeligvis må man bruke et bibliotek for å håndtere bildefiler),

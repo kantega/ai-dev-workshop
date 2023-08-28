@@ -1,138 +1,47 @@
 # Workshop on GitHub Copilot and ChatGPT
 
-Dette er ment som en praktisk workshop, rettet mot utviklere og bruk av AI-verktøy, som GitHub Copilot og ChatGPT i utviklingsarbeid.
+Dette er en praktisk workshop, som er rettet mot utviklere som ønsker å komme i gang med å benytte AI-verktøy, som GitHub Copilot og ChatGPT i utviklingsarbeid.
 
-Det bør være fokus på konkrete problemstillinger og arbeidsoppgaver, og for å vise utviklere hvilke muligheter man har.
-Det bør fungere som en kickstart, for å komme i gang med å benytte AI-verktøy i utviklingsarbeid.
-Det er antakeligvis fordelaktig om det først og fremst omhandler verktøy som er lette å komme i gang med,
-og som er gratis - i et forsøk på å senke terskelen til å benytte disse verktøyene.
-Her er ChatGPT (GPT3-versjonen) gratis, og man trenger bare logge inn med for eksempel en Google-konto.
+Man kan løse disse oppgavene med akkurat det AI-verktøyet man selv ønsker, om det er ChatGPT, Copilot, eller noe annet, spiller ikke så stor rolle.
+Tanken er at man får trent på det med å ha en arbeidsflyt der man aktivt bruker en stor språkmodell.
 
-Tanken er å løse disse oppgavene med nesten utelukkende bruk av ChatGPT, for å illustrere hvordan LLM'er kan være nyttige i arbeidshverdagen.
+Dette er en veldig åpen og løs workshop, der man står fritt i å velge de oppgavene man selv ønsker å løse.
+Poenget er ikke å løse de konkrete oppgavene i seg selv, men heller dette med å opparbeide erfaring rundt aktiv bruk av LLM'er i en arbeidsflyt.
 
-Poenget her er ikke å løse de konkrete oppgavene i seg selv, men å opparbeide erfaring rundt aktiv bruk av LLM'er i en arbeidsflyt.
-
-Merk at det er mange av oppgavene som bør ha forbehold (for eksempel dette med å be ChatGPT forklare et bibliotek / rammeverk) om at en
-LLM først og fremst en modell som er trent til å generere den mest sannsynlige teksten etter en gitt promt - en LLM vet ikke om den faktisk har rett eller ikke.
+Som et forbehold, må man alltid være på vakt om dette med at disse store språkmodellene har en tendens til å hallusinere.
+Aldri ta alt den sier for god fisk, valider svarene og forslagene den kommer med.
+En stor språkmodell er først og fremst trent til å generere den mest sannsynlige teksten etter et gitt promt, 
+med andre ord så vil den fortelle deg akkurat det du ønsker å høre.
+Den har heller ikke noe konsept om den faktisk har rett eller ikke.
 For eksempel kan den finne på å generere dokumentasjon eller funksjonalitet som ikke finnes i det opprinnelige biblioteket.
-På grunn av disse hallusinasjonene, bør man ikke stole blindt på det en LLM svarer med, og man bør alltid verifisere at det faktisk er korrekt.
+Så det er viktig at man alltid verifiserer forslagene språkmodellen kommer med.
 
-## Råd til å få best effekt ut av LLM'er
+## Gjennomføring av denne workshop'en
 
-For å få gode svar fra LLM'er, så må man spørre på riktig måte.
-Man må være presis og tydelig, gi nok informasjon til at det kan utføres, og vite hva slags svar man forventer.
-Enkelte typer prompts gir bedre svar enn andre, og dette er noe som vil endres over tid, etterhvert som LLM'er blir utviklet.
+Dette er en ganske åpen og løs workshop, og det er ingen bestemte oppgaver man _må_ gjøre eller rekkefølge på de. 
+I dette repoet, i `/exercises`-mappen, finnes det noen utvalgte oppgaver som er definert litt grundigere.
 
-Konsepter man kan vurdere å ha med i et gitt prompt:
+Men man kan også velge et av forslagene fra `Diverse-oppgaveforslag.md`, om man så ønsker.
+Det er ikke den konkrete oppgaven som er så viktig, men heller det å opparbeide en arbeidsflyt ved bruk av en LLM.
+Så det er viktig når man løser disse oppgavene at man tenker i disse banene:
+- Hvordan kan jeg bruke LLM'en mest mulig for å løse denne oppgaven?
+- Hvordan kan det å løse denne oppgaven trene meg opp på arbeidsflyt der man bruker LLM'en aktivt?
+- Hva er det som er lett? Hva er det som er vanskelig? Hvordan kan man unngå eller håndtere de vanskelige tingene?
+- Diskuter med hverandre!
 
-- Klassifisering - hva er problemet vi ønsker å adressere?
-- Kontekst - hva er bakgrunnen for problemet?
-- Motivasjon - hvorfor er det viktig å løse problemet?
-- Konsepter - hvilke konsepter og idéer er viktig for å tilnærme problemet?
-- Eksempler - finnes det noen eksempler på hvilken løsning man forventer?
-- Konsekvenser - ønsker man å vite tradeoffs ved en gitt løsning?
+En lærerik øvelse kan være å stole blindt på _alt_ ChatGPT sier, for eksempel, og gjøre nøyaktig som den ber om.
+I mange tilfeller, spesielt om man gjør noe litt større og bredere (som for eksempel et nytt oppsett til et prosjekt), 
+så vil man ende opp i en situasjon der ChatGPT har bedt deg om å gjøre noe som ikke fungerer. 
+Hvordan kan du bruke ChatGPT til å komme deg ut av situasjonen? 
+Hva er det du må presisere i promptet for å få et bedre svar, eventuelt en feilretting?
 
-## Potensielle oppgaver
+Vær kreativ når du løser disse oppgavene, det er fullstendig lov å bare gå i din helt egen retning - det viktige er å øve på
+å ha en arbeidsflyt der man aktivt bruker ChatGPT.
 
-Dette er ren idémyldring, og bør tilspisses til konkrete oppgaver.
+En øvelse kan være å løse disse oppgavene i et språk som du aldri har prøvd før, men har hatt lyst å lære. 
+Gjerne vil førstegangsoppsett typisk være noe som kan ta litt tid - bruk LLM'en til å gjøre denne prosessen bedre.
 
-### Utvide en eksisterende kodebase
+Noen av oppgavene vil være vanskeligere og mer tidkrevende enn andre - velg gjerne noe raskt og enkelt i starten, 
+bare for å komme i gang, så kan man begynne på mer ambisiøse oppgaver etterhvert.
 
-Her kunne man for eksempel benyttet de eksisterenede TODO-intervju oppgavene, og fått konkrete utvidelser som man skal implementere.
-
-Noen eksempler på konkrete oppgaver:
-
-- Utvide TODO-modellen, med for eksempel et felt for når TODO-en skal være ferdig (due date)
-- Opprette en DAO mot en relasjonell database
-- Sortering av TODO
-- Opprettet tester
-- Hente data fra et eksternt API
-- Skrive det om i et annet språk (Kotlin, C#, Python, JavaScript, etc)
-
-### Håndtere JSON
-
-- Ta en JSON-modell, generer en Java-klasse basert på denne (DTO, REST-kontroller, DAO) -
-  kan utvides til å gå fra 'konsumer JSON via en POST mot et REST-endepunkt, og insert det i en database'
-- Ta en liste av JSON'er, som har en property som er en enum (`type: 'IMAGE'`) - omstrukturer denne til et Map som nøkler på enum-verdien:
-
-```javascript
-const originalArray = [
-    { title: 'dog.jpg', type: 'IMAGE' },
-    { title: 'cat.mp4', type: 'VIDEO' },
-    { title: 'fish.jpg', type: 'IMAGE' },
-    /* etc, etc... */
-];
-
-const expectedMap = {
-    'IMAGE': [
-        { title: 'dog.jpg' },
-        { title: 'fish.jpg' }
-    ],
-    'VIDEO': [
-        { title: 'cat.mp4' }
-    ]
-};
-```
-
-### SQL
-
-- Denormaliser en tabellstruktur
-- Konstruer en rekke SQL-spørringer som oppretter tabeller og inserter data
-
-### Algoritmer
-
-- Forslag til forskjellige algoritmer for å løse et konkret problem, og trade-offs med de forskjellige algoritmene -
-  en konkret oppgave her kan være å traversere en trestruktur, og ta med relevante noder videre
-- Optimaliser en funksjon / kodeblokk
-
-### Generere kode
-
-- Hvordan lese en fil
-- Hvordan gjøre API-kall
-- Hvordan lese / skrive til en database
-- Hvordan implementere en algoritme
-- Generer en nettside
-- Generer en komponent til en web-applikasjon
-- Formatter en rekke data
-- Oversett fra et språk til et annet
-- Parse et gitt filformat, få ut spesifisert informasjon, med en rekke forutsetninger
-
-### Tester
-
-- Generer tester basert på eksisterende kode
-- Generer test-data
-
-### Dokumentasjon
-
-- Forklar hva et stykke kode gjør
-- Finn et godt navn for en metode
-- Bruke LLM'er som en 'live StackOverflow' - be om å forklare klasser og funksjoner i rammeverk / biblioteker
-- Finskriving av tekst til issue-trackers (beskrivelsen til en Jira-oppgave, for eksempel)
-- Generere dokumentasjon til et API
-
-### Fagstoff
-
-- Forklare terminologi, konsepter, rammeverk, biblioteker, språk; foreslå læringskilder -
-  her har man muligheten til å ha en dialog med LLM'en, og spisse inn på begreper man sliter med
-- Best practices og design patterns - forslag og forklaringer
-- Valg av teknologi til et prosjekt (språk, rammeverk, biblioteker, etc)
-- Arkitekturelle beslutninger
-- Foreslå et roadmap for å lære en gitt teknologi
-
-### Review
-
-- Be LLM om å gjøre code review av et stykke kode, foreslå forbedringer
-
-### Integrasjoner i IDE'er
-
-- Praktisk bruk av Copilot i IntelliJ / VSCode
-- Plugins
-
-### Feilsøking
-
-- Hva er galt med denne koden her?
-- Debugging, forklar problemet, få forslag til hva det kan være og hvordan løse det
-
-### Sikkerhet
-
-- Finn potensielle sikkerhetshull i en gitt kodeblokk
+Lykke til, og diskuter aktivt med hverandre!

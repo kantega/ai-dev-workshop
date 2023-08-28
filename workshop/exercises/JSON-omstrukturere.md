@@ -5,7 +5,9 @@
 Gitt en JSON-array, med objekter som inneholder en verdi som kan uttrykkes som en enum, omstrukturer dette til et map som
 nøkler på disse enum-verdiene.
 
-Kan kanskje be ChatGPT om å generere en array med data, som man så omstrukturerer?
+Du kan be LLM'en om å gjøre det direkte, eller be om en funksjon som gjør det samme.
+
+Be gjerne LLM'en om å generere den opprinnelige dataen som det jobbes med.
 
 ```javascript
 // Opprinnelig array som skal restruktureres
@@ -31,7 +33,7 @@ const expectedMap = {
 
 ---
 
-Generert data fra ChatGPT:
+Eksempel på generert data fra ChatGPT:
 
 **Prompt:**
 >Generate a JSON-array of 20 objects.
@@ -151,7 +153,7 @@ The objects in the array has the following fields:
 ]
 ```
 
-(traff fort token-begrensningen på gratisversjonen av ChatGPT 3)
+(traff fort token-begrensningen på gratisversjonen av ChatGPT 3.5 - kan man gjøre noe for å omgå denne problemstillingen?)
 
 Merk en feil, vårt krav om at "size"-propertyen skulle ha sjikter basert på filtypen ble ikke helt riktig.
 "AUDIO"-objektene har konsekvent en lavere verdi enn "IMAGE"-objektene.
