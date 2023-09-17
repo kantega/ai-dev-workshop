@@ -2,131 +2,60 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
 # Innføring i bruk av ChatGPT / GitHub Copilot
 
 Denne workshop'en er ment som en innføring i hvordan man kan benytte
-LLM'er i utviklingsarbeid, og er ingen endelig eller komplett guide
+språkmodeller i utviklingsarbeid, og er ingen endelig eller komplett guide
 på alt man kan bruke det til eller problemstillinger rundt det.
+
+Språkmodeller er verktøy, og har fordeler og ulemper. Og som de fleste verktøy, så må man øve for kunne bruke det effektivt. 
+
 Det handler først og fremst bare om å bli kjent med det,
 hvilke oppgaver de er gode til å løse, og hvilke ufordringer man kan
 støte på underveis.
 
-# Header 1
+Workshop'en er ment å være språkmodell-agnostisk, og i utgangspunktet kan man bruke akkurat den modellen man vil.
+Per i dag er det 2 verktøy som utmerker seg: ChatGPT og GitHub Copilot.
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+Man kan få tilgang til ChatGPT via [chat.openai.com/](https://chat.openai.com/), der man kan logge seg inn med 
+eksempelvis Google. ChatGPT basert på GPT-3.5 er gratisversjonen, men man må betale for å få tilgang til GPT-4 versjonen av ChatGPT.
 
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-    - level 2 item
-    - level 2 item
-        - level 3 item
-        - level 3 item
-- level 1 item
-    - level 2 item
-    - level 2 item
-    - level 2 item
-- level 1 item
-    - level 2 item
-    - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+GitHub Copilot er et verktøy spesifikt ment for koding, og er basert på en språkmodell som er trent og finetunet for programmering.
+Man kan få tak i en 30 dagers gratis prøveversjon via [https://github.com/github-copilot/signup](https://github.com/github-copilot/signup) - 
+men vær obs på hva du tilgjengeliggjør, da Copilot sender data ut til sine servere.
 
 
-### Definition lists can be used with HTML syntax.
+# Gjennomføring
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+Dette er i utgangspunktet en ganske åpen workshop, og kan gjennomføres på flere måter:
+- Dersom du er litt usikker på hvordan du skal begynne, så kan du starte på denne siden: [Hurtigstart](pages/quickstart.md)
+- Dersom du ønsker et kode-repo å starte med, ta en titt her: [Utvid en kodebase](pages/codebase.md)
+- Dersom du ønsker en liste av oppgaver, ta en titt her: [Oppgaver](pages/exercises.md)
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
+Noen tips for å få best mulig effekt ut av språkmodeller: [Tips](pages/tips.md)
 
-```
-The final element.
-```
+
+# Litt kort om språkmodeller
+
+En stor språkmodell (large language model, eller LLM) er en maskinlæringsmodell som er trent på et enormt datasett,
+gjerne 'hele' internett, og som i korte trekk prøver å forutsi neste ord i en tekst, gitt en kontekst og input.
+
+De store språkmodellene i dag baserer seg ofte på GPT-arkitekturen - der GPT står for Generative Pre-trained Transformer.
+Dette betyr egentlig bare at det er en modell som er trent på forhånd, som genererer noe form for output, basert på et eller annet input.
+
+For ChatGPT, så genererer den tekst, og er trent på språkkilder som bøker, internett, osv, og gir et svar som skal matche et gitt prompt.
+En GPT-modell trenger ikke være tekstbasert, for eksempel er DALL-E også basert på GPT, men genererer bilder, og ikke tekst.
+
+### Copilot
+
+GitHub Copilot er en LLM som er finetunet for å fungere som en kodeassistent,
+ved å foreslå kodesnutter etterhvert som man jobber i et integrert miljø.
+Den er også basert på GPT-modellen, men fokuset under treningen og tuningen
+har vært å lage en modell som er god til å forstå og generere kode.
+
+Den ser på hele repoet mens man jobber, og prøver å foreslå kode som gir
+mening i kontekst av hele prosjektet.
+
+Her er det utfordringer rundt om man har anledning til å dele kodebasen
+sin med en ekstern aktør, samt problemstillinger rundt personvern,
+og det vil ikke egne seg i alle prosjekt.
