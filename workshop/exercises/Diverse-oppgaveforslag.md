@@ -1,4 +1,4 @@
-## Potensielle oppgaver
+## Potensielle oppgaver - Utvikling
 
 ### Utvide en eksisterende kodebase
 
@@ -102,3 +102,15 @@ const expectedMap = {
 ### Sikkerhet
 
 - Finn potensielle sikkerhetshull i en gitt kodeblokk
+
+
+## Potensielle oppgaver - Drift
+
+### Automasjon
+
+Man kan finne konkrete deler av en arbeidsflyt som potensielt kan automatiseres, og forsøke å benytte språkmodellen til å
+avdekke hva som potensielt kan automatiseres, og hvordan det rent praktisk kan automatiseres.
+
+For eksempel om man i en fly det gjøres en del manuell konfigurasjon, med flere steg, så kan man prøve å få språkmodellen til å
+skrive et script eller utforme en prosedyre slik at man ikke behøver alle de manuelle stegene.
+
