@@ -2,6 +2,8 @@
 layout: default
 ---
 
-heihei quickstart
+## Hurtigstart
+
+Om du bare ønsker å komme i gang med å benytte 
 
 [< Tilbake](../)

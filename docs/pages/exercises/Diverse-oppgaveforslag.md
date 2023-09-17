@@ -107,6 +107,9 @@ const expectedMap = {
 
 - Finn potensielle sikkerhetshull i en gitt kodeblokk
 
+### Leetcode / CodeWars / Hackerrank / et al
+- Prøv å løs oppgaver på disse diverse programmeringsoppgave-nettsidene
+
 
 ## Potensielle oppgaver - Drift
 
