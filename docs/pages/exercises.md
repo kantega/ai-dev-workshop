@@ -18,7 +18,11 @@ gjerne blande konsepter fra flere av oppgavene.
 - [ASCII-kunst](./exercises/ASCII-kunst.md)
 - [Discord-bot](./exercises/Discord-bot.md)
 - [JSON omstrukturering](./exercises/JSON-omstrukturere.md)
+- [OpenAI-API](./exercises/OpenAI-API.md)
 - [SQL Opprette tabeller](./exercises/SQL-opprett-tabeller.md)
+- [Test data: Fødselsnummer](./exercises/Test-data-fodselsnummer.md)
+- [Test data: JSON](./exercises/Test-data-JSON.md)
+- [Test data: Nytt format](./exercises/Test-data-nytt-format.md)
 - [Webapp komponent](./exercises/Webapp-komponent.md)
 
 ### Diverse oppgaveforslag
