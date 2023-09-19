@@ -9,10 +9,10 @@ layout: default
 **Obs:** Dette koster penger per token man sender inn, så enten ha en avtale på plass eller velg en annen oppgave.
 
 OpenAI tilbyr en rekke endepunkter som en del av sitt API:
-https://platform.openai.com/docs/introduction/overview
+[https://platform.openai.com/docs/introduction/overview](https://platform.openai.com/docs/introduction/overview)
 
 Ta en kjapp titt her:
-https://platform.openai.com/docs/quickstart
+[https://platform.openai.com/docs/quickstart](https://platform.openai.com/docs/quickstart)
 for å se hvordan man setter opp en applikasjon til å gjøre kall mot OpenAI sitt API.
 
 Bruk gjerne språkmodellen som hjelp når du lager denne integrasjonen.
@@ -26,4 +26,4 @@ For eksempel kunne det vært et verktøy for å generere Dungeons and Dragons ka
 Input kan være bare små stikkord ('_elf, mage, evil_', eller '_human, bartender, kind_'), og språkmodellen kan være primet på generere
 en kort backstory, og noen karaktertrekk til denne personen.
 
-[< Tilbake](../)
+[< Tilbake](../exercises.md)

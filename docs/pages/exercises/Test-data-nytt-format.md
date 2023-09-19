@@ -85,4 +85,4 @@ Gitt et XML-dokument med noen objekter (generert av ChatGPT):
 
 Konverter dette til et annet format, som for eksempel JSON.
 
-[< Tilbake](../)
+[< Tilbake](../exercises.md)

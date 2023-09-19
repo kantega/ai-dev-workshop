@@ -30,4 +30,4 @@ Eksempler på språk man kan bryne seg på:
 - ML
 - Pascal
 
-[< Tilbake](../)
+[< Tilbake](../exercises.md)

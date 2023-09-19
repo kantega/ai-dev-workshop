@@ -31,6 +31,8 @@ Dette er i utgangspunktet en ganske åpen workshop, og kan gjennomføres på fle
 - Dersom du er litt usikker på hvordan du skal begynne, så kan du starte på denne siden: [Hurtigstart](pages/quickstart.md)
 - Dersom du ønsker et kode-repo å starte med, ta en titt her: [Utvid en kodebase](pages/codebase.md)
 - Dersom du ønsker en liste av oppgaver, ta en titt her: [Oppgaver](pages/exercises.md)
+- Dersom du ikke er utvikler eller ønsker noe annet enn utviklingsoppgaver, 
+  ta en titt her: [For ikke-utviklere](./pages/non-developers.md)
 
 Noen tips for å få best mulig effekt ut av språkmodeller: [Tips](pages/tips.md)
 

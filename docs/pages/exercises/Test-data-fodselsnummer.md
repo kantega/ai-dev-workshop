@@ -17,4 +17,4 @@ Her må man nok gå noen veier, og 'lære opp' modellen i hvordan et fødelsnumm
 Hva er utfordringen her? Om du får den til å generere korrekte fødelsnumre, hvilken begrensning følger med?
 Hvordan må du ordlegge deg for å få den til å generere riktige fødselsnumre?
 
-[< Tilbake](../)
+[< Tilbake](../exercises.md)

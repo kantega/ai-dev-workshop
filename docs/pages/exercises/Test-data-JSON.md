@@ -17,4 +17,4 @@ og definer modeller for de forskjellige entitetene som er del av domenet.
 
 Merk at man kan fort støte på begrensingen med antall tegn i gratisversjonene av ChatGPT og andre modeller.
 
-[< Tilbake](../)
+[< Tilbake](../exercises.md)

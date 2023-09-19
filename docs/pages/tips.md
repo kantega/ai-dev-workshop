@@ -5,7 +5,7 @@ layout: default
 ## Generelle tips:
 - Engelsk vil ofte fungere best, da det er mer materiale for modellen trene på
 - Det er unødvendig å bruke for mange ord, trenger ikke høfligheter som 'hei' og 'takk' - vær heller tydelig
-- Sterke og tydelige verb fungerer ofte bedre (ikke 'could you?', men 'do this')
+- Sterke, tydelige imperativer og verb fungerer ofte bedre (ikke 'could you?', men 'do this')
 - Bruk positive fraser, heller enn negative ('write ')
 - Bruk separasjon via """ (trippel quotes), eller XML-tags for å skille seksjoner av tekst
 

@@ -27,5 +27,6 @@ Liste av prompts:
 > Format the list in a table
 >
 > Add a column, containing the capital city of each country
-> 
-> [< Tilbake](../exercises.md)
+
+
+[< Tilbake](../exercises.md)
