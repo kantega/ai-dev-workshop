@@ -61,3 +61,5 @@ mening i kontekst av hele prosjektet.
 Her er det utfordringer rundt om man har anledning til å dele kodebasen
 sin med en ekstern aktør, samt problemstillinger rundt personvern,
 og det vil ikke egne seg i alle prosjekt.
+
+[Litt mer om workshopen](./pages/notes.md)

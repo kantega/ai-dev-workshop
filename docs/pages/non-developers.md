@@ -30,3 +30,5 @@ med en språkmodell til hjelp.
 **Tableau:** [Tableau](./exercises/Tableau.md)
 
 **Transformere data:** [Transformere data](./exercises/Transformere-data.md)
+
+[< Tilbake](../)
