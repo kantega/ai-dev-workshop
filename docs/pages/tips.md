@@ -2,7 +2,8 @@
 layout: default
 ---
 
-## Generelle tips:
+# Generelle tips
+
 - Engelsk vil ofte fungere best, da det er mer materiale for modellen trene på
 - Det er unødvendig å bruke for mange ord, trenger ikke høfligheter som 'hei' og 'takk' - vær heller tydelig
 - Sterke, tydelige imperativer og verb fungerer ofte bedre (ikke 'could you?', men 'do this')
@@ -56,6 +57,6 @@ Vær obs på å ikke dele sensitiv informasjon.
 
 Husk at AI-verktøy er verktøy, og vil ikke erstatte egen tenkning.
 De vil hjelpe deg, men du selv må forstå og løse problemene.
-Målet med denne workshop'en er å trene på å bruke disse verktøyene.
+Målet med denne workshopen er å trene på å bruke disse verktøyene.
 
 [< Tilbake](../)

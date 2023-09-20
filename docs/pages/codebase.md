@@ -2,14 +2,14 @@
 layout: default
 ---
 
-## Kodebase
+# Kodebase
 
 Her har vi en eksisterende kodebase, som vi ønsker å utvide ved hjelp av språkmodeller.
 
 Kodebasen finnes her:
 [Lenke til GitHub-repoet](https://github.com/kantega/ai-dev-workshop/tree/main/workshop/todo-app)
 
-Dette er en undermappe i repoet til denne workshop'en, så du bør klone ned hele repoet, og navigere til denne mappen.
+Dette er en undermappe i repoet til denne workshopen, så du bør klone ned hele repoet, og navigere til denne mappen.
 
 Det er et svært enkelt NodeJS prosjekt, som implementerer en TODO-applikasjon.
 Målet her er å utvide denne applikasjonen med ny funksjonalitet og / eller forbedre kodebasen.
