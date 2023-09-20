@@ -57,6 +57,6 @@ Vær obs på å ikke dele sensitiv informasjon.
 
 Husk at AI-verktøy er verktøy, og vil ikke erstatte egen tenkning.
 De vil hjelpe deg, men du selv må forstå og løse problemene.
-Målet med denne workshop'en er å trene på å bruke disse verktøyene.
+Målet med denne workshopen er å trene på å bruke disse verktøyene.
 
 [< Tilbake](../)
