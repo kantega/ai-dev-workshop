@@ -2,7 +2,8 @@
 layout: default
 ---
 
-## Generelle tips:
+# Generelle tips
+
 - Engelsk vil ofte fungere best, da det er mer materiale for modellen trene på
 - Det er unødvendig å bruke for mange ord, trenger ikke høfligheter som 'hei' og 'takk' - vær heller tydelig
 - Sterke, tydelige imperativer og verb fungerer ofte bedre (ikke 'could you?', men 'do this')
