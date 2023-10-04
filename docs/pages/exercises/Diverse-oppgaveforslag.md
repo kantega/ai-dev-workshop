@@ -4,7 +4,7 @@ layout: default
 
 # Potensielle oppgaver - Utvikling
 
-### Utvide en eksisterende kodebase
+## Utvide en eksisterende kodebase
 
 Ta en eksisterende kodebase som du har jobbet på (gitt, selvfølgelig, at det ikke bryter noen lisens eller noe lovverk å bruke det i denne sammenhengen),
 eventuelt last ned et open source prosjekt som du enten er kjent med eller som er smått nok til at du lett kan forstå det.
@@ -19,7 +19,7 @@ Noen eksempler på konkrete oppgaver:
 - Skrive det om til et annet språk
 - Lage et API som tilgjengeliggjør data
 
-### Håndtere JSON
+## Håndtere JSON
 
 - Ta en JSON-modell, generer en Java-klasse basert på denne (DTO, REST-kontroller, DAO) -
   kan utvides til å gå fra "konsumer JSON via en POST mot et REST-endepunkt, og insert det i en database"
@@ -44,18 +44,18 @@ const expectedMap = {
 };
 ```
 
-### SQL
+## SQL
 
 - Denormaliser en tabellstruktur
 - Konstruer en rekke SQL-spørringer som oppretter tabeller og inserter data
 
-### Algoritmer
+## Algoritmer
 
 - Forslag til forskjellige algoritmer for å løse et konkret problem, og trade-offs med de forskjellige algoritmene -
   en konkret oppgave her kan være å traversere en trestruktur, og ta med relevante noder videre
 - Optimaliser en funksjon / kodeblokk
 
-### Generere kode
+## Generere kode
 
 - Hvordan lese en fil
 - Hvordan gjøre API-kall
@@ -67,12 +67,12 @@ const expectedMap = {
 - Oversett fra et språk til et annet
 - Parse et gitt filformat, få ut spesifisert informasjon, med en rekke forutsetninger
 
-### Tester
+## Tester
 
 - Generer tester basert på eksisterende kode
 - Generer test-data
 
-### Dokumentasjon
+## Dokumentasjon
 
 - Forklar hva et stykke kode gjør
 - Finn et godt navn for en metode
@@ -80,7 +80,7 @@ const expectedMap = {
 - Finskriving av tekst til issue-trackers (beskrivelsen til en Jira-oppgave, for eksempel)
 - Generere dokumentasjon til et API
 
-### Fagstoff
+## Fagstoff
 
 - Forklare terminologi, konsepter, rammeverk, biblioteker, språk; foreslå læringskilder -
   her har man muligheten til å ha en dialog med LLM'en, og spisse inn på begreper man sliter med
@@ -89,25 +89,26 @@ const expectedMap = {
 - Arkitekturelle beslutninger
 - Foreslå et roadmap for å lære en gitt teknologi
 
-### Review
+## Review
 
 - Be LLM om å gjøre code review av et stykke kode, foreslå forbedringer
 
-### Integrasjoner i IDE'er
+## Integrasjoner i IDE'er
 
 - Praktisk bruk av Copilot i IntelliJ / VSCode
 - Plugins
 
-### Feilsøking
+## Feilsøking
 
 - Hva er galt med denne koden her?
 - Debugging, forklar problemet, få forslag til hva det kan være og hvordan løse det
 
-### Sikkerhet
+## Sikkerhet
 
 - Finn potensielle sikkerhetshull i en gitt kodeblokk
 
-### Leetcode / CodeWars / Hackerrank / et al
+## Leetcode / CodeWars / Hackerrank / et al
+
 - Prøv å løs oppgaver på disse diverse programmeringsoppgave-nettsidene
 
 
