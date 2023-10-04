@@ -17,6 +17,7 @@ gjerne blande konsepter fra flere av oppgavene.
 ## Oppgaver
 
 - [ASCII-kunst](./exercises/ASCII-kunst.md)
+- [ASCII-kunst med nytt språk](./exercises/ASCII-kunst-med-nytt-språk.md)
 - [Bash-programmering](./exercises/Bash-programmering.md)
 - [Discord-bot](./exercises/Discord-bot.md)
 - [Hello world!](./exercises/Hello-world.md)

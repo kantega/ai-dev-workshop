@@ -6,25 +6,22 @@ layout: default
 
 ## Generer ASCII-kunst fra en bildefil
 
-Velg et programmeringsspråk, gjerne et du ikke kan særlig godt, men ønsker å lære.
-Helst ikke for obskurt, men noe som Go, Rust, Kotlin, eller Haskell kan egne seg.
-
-Oppgaven går ut på å, ved hjelp av LLM (ChatGPT, og kanskje Copilot, om du har tilgang til det),
+Oppgaven går ut på å ta i bruk en IDE-plugin basert på en LLM (for eksempel GitHub Copilot) for
 å skrive et program fra scratch, som tar inn en bildefil, og genererer ASCII-kunst basert på dette.
+Bruk helst et språk du kjenner godt.
 
-Poenget her er å få med seg oppsett av et nytt språk (installasjon og miljø),
-installering og bruk av biblioteker (antakeligvis må man bruke et bibliotek for å håndtere bildefiler),
-lesing fra og skriving til disk, og en kjent problemstilling rundt det å algoritmisk
-produsere ASCII-kunst fra en bildefil.
+Poenget her er å øve på 'prompt engineering' i en IDE-kontekst. Et par tips:
 
-Gjerne begynn med å få en høynivå algoritme, hvor du beskriver hvert steg du må
-gjennom for å oppnå dette, og så bryt det ned i mindre problemer som du kan 
-få generert kode til.
+- Begynner du fra en blank fil, kan det være hensiktsmessig å begynne med en overordnet forklaring av hva
+programmet ditt skal gjøre (som kommentar)
+- Etterhvert som programmet utvikler seg kan inline-kommentarer være veldig nyttig for å 'dytte' koden i riktig retning
+- Om du deler koden i ulike filer vil GitHub Copilot fortsatt utnytte kontekst så lenge du har relaterte filer i åpne faner
 
-Om du støter på problemer underveis, spør LLM'en. Kopier inn feilen du får, og beskriv
+Om du støter på problemer underveis, eller ikke klarer å styre koden i riktig retning kan du lene deg på chat-baserte LLM-er.
+Kopier inn feilen du får, og beskriv
 problemet, og gjerne konteksten rundt problemet (hvilken prosjekt-struktur du har, hvilket miljø, etc).
 
-Vær obs på at LLM'en kan fortsatt hallusinere, og for eksempel foreslå klasser, funksjoner,
-og metoder som ikke finnes i språket eller biblioteket som blir brukt.
+Vær obs på at LLM'en kan fortsatt hallusinere, og for eksempel foreslå biblioteker, klasser, funksjoner,
+og metoder som ikke finnes..!
 
 [< Tilbake](../exercises.md)
