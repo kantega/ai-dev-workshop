@@ -27,6 +27,7 @@ gjerne blande konsepter fra flere av oppgavene.
 - [OpenAI-API](./exercises/OpenAI-API.md)
 - [Refaktorering](./exercises/Refaktorering.md)
 - [SQL Opprette tabeller](./exercises/SQL-opprett-tabeller.md)
+- [Stoppeklokke](./exercises/Stoppeklokke.md)
 - [Tableau](./exercises/Tableau.md)
 - [Test-data: Fødselsnummer](./exercises/Test-data-fodselsnummer.md)
 - [Test-data: JSON](./exercises/Test-data-JSON.md)
