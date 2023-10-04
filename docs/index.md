@@ -29,8 +29,8 @@ men vær obs på hva du tilgjengeliggjør, da Copilot sender data ut til sine se
 Dette er i utgangspunktet en ganske åpen workshop, og kan gjennomføres på flere måter
 
 - Dersom du er litt usikker på hvordan du skal begynne, så kan du starte på denne siden: [Hurtigstart](pages/quickstart.md)
-- Dersom du ønsker et kode-repo å starte med, ta en titt her: [Utvid en kodebase](pages/codebase.md)
 - Dersom du ønsker en liste av oppgaver, ta en titt her: [Oppgaver](pages/exercises.md)
+- Dersom du ønsker et kode-repo å starte med, ta en titt her: [Utvid en kodebase](pages/codebase.md)
 - Dersom du ikke er utvikler eller ønsker noe annet enn utviklingsoppgaver,
   ta en titt her: [For ikke-utviklere](./pages/non-developers.md)
 

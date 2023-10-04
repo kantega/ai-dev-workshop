@@ -16,9 +16,11 @@ gjerne blande konsepter fra flere av oppgavene.
 
 ## Oppgaver
 
-- [ASCII-kunst](./exercises/ASCII-kunst.md)
+- [ASCII-kunst*](./exercises/ASCII-kunst.md)
+- [ASCII-kunst med nytt språk](./exercises/ASCII-kunst-med-nytt-språk.md)
 - [Bash-programmering](./exercises/Bash-programmering.md)
 - [Discord-bot](./exercises/Discord-bot.md)
+- [Generere syntetiske data*](./exercises/Syntetiske-data.md)
 - [Hello world!](./exercises/Hello-world.md)
 - [IT-drift-case](./exercises/IT-drift-case.md)
 - [JSON forskrifter](./exercises/JSON-forskrifter.md)
@@ -27,12 +29,16 @@ gjerne blande konsepter fra flere av oppgavene.
 - [OpenAI-API](./exercises/OpenAI-API.md)
 - [Refaktorering](./exercises/Refaktorering.md)
 - [SQL Opprette tabeller](./exercises/SQL-opprett-tabeller.md)
+- [Stein saks papir*](./exercises/Stein-saks-papir.md)
+- [Stoppeklokke*](./exercises/Stoppeklokke.md)
 - [Tableau](./exercises/Tableau.md)
 - [Test-data: Fødselsnummer](./exercises/Test-data-fodselsnummer.md)
 - [Test-data: JSON](./exercises/Test-data-JSON.md)
 - [Test-data: Nytt format](./exercises/Test-data-nytt-format.md)
 - [Transformere data](./exercises/Transformere-data.md)
 - [Webapp komponent](./exercises/Webapp-komponent.md)
+
+Oppgavene merket med * er spesielt egnet for å teste kodefullføringsverktøy integrert i din IDE.
 
 ### Diverse oppgaveforslag
 
