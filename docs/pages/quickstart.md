@@ -28,6 +28,14 @@ deler sensitiv kode / data, eller at du har lov å benytte AI-verktøy.
     - Her kan man signere seg på en 30 dagers gratis prøveversjon.
       Det finnes plugins til de fleste store IDE'ene for å integrere med Copilot.
 
+- **Codeium:** [https://codeium.com/](https://codeium.com/)
+    - Et alternativ til GitHub Copilot, er gratis for individer å bruke.
+      Lett å forveksle med Codium, et annet kode-AI-produkt som gjør noe litt annet.
+
+- **TabbyML:** [https://github.com/TabbyML/tabby](https://github.com/TabbyML/tabby)
+    - TabbyML er en 100 % free open-source co-pilot, der tilogmed de underliggende språkmodellene er åpne, 
+      og finnes på Huggingface. 
+
 - **Ollama 2:** [ollama.ai](https://ollama.ai/)
     - Llama er en open-source språkmodell, som det er mulig å laste ned og kjøre
       på sin egen maskin.
